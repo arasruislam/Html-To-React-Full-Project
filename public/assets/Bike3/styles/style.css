@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.biker-text {
+  color: #e76f51;
+}
+.biker-border {
+  border-color: #e76f51;
+}
+
+.biker-header-bg {
+  max-height: 100vh;
+}
+.biker-footer-bg {
+  background: #264653;
+}
+.biker-btn,
+.biker-btn-outline {
+  border-radius: 5px;
+  padding: 0.45rem 1.3rem;
+  text-transform: capitalize;
+  border: 1px solid #e76f51;
+  transition: background 0.5s, color 0.5s;
+}
+.biker-btn {
+  background: #e76f51;
+  color: #ffffff;
+}
+.biker-btn-outline {
+  background: none;
+  color: #e76f51;
+}
+.biker-btn-outline:hover {
+  background: #e76f51;
+  color: #ffffff;
+  cursor: pointer;
+}
+.biker-btn:hover {
+  background: none;
+  cursor: pointer;
+  color: #e76f51;
+}
+
+.biker-black-white {
+  filter: grayscale(100%);
+}
+.slider-bg-color {
+  background-color: #8ca1aa;
+}
